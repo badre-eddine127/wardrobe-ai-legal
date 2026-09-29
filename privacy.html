@@ -31,7 +31,7 @@
 <div class="wrap">
   <div class="brand">Wardrobe <span class="accent">AI</span></div>
   <h1>Privacy Policy</h1>
-  <div class="updated">Last updated: September 13, 2026</div>
+  <div class="updated">Last updated: September 29, 2026</div>
 
   <div class="disclaimer">
     This document is a general template and does not constitute legal advice. It has not been reviewed by a lawyer. Please have it reviewed by a qualified professional — and adjusted to reflect your actual data practices — before relying on it for a commercial launch.
@@ -60,7 +60,8 @@
   </ul>
 
   <h2>3. AI Processing</h2>
-  <p>Photo analysis used to detect and categorize clothing items is performed automatically. Where this analysis is performed using a third-party AI/vision service, that provider processes the image only as needed to return the analysis result, under its own confidentiality and security obligations to us. We do not use your wardrobe photos to train shared or public AI models.</p>
+  <p>Wardrobe AI uses <strong>Replicate</strong>, a third-party AI service, to power the App's core AI features. When you add a clothing item or generate an outfit look, the photo you provide (and any notes you add about it) is sent to Replicate so that it can: analyze the photo to detect attributes such as garment type, color, style, and season; reconstruct or generate outfit preview images; and, where you've set a model gender/skin-tone preference, apply that preference to generated images. Replicate processes this content only as needed to return the result to us, under its own confidentiality and security obligations to us, and we do not use your wardrobe photos to train shared or public AI models.</p>
+  <p>Before any photo is sent to Replicate for the first time, the App shows you an in-app disclosure explaining what is sent and to whom, and asks for your explicit permission — this happens once, during onboarding, before you can use any AI feature.</p>
 
   <h2>4. Where Your Data Is Stored</h2>
   <p>Your data is stored using Firebase (a Google Cloud service), including Firebase Authentication, Firestore, and Firebase Storage. Google maintains its own security and compliance program for this infrastructure. Data may be processed or stored in countries other than your own; where required, we rely on appropriate safeguards for such transfers.</p>
@@ -68,6 +69,7 @@
   <h2>5. Sharing of Information</h2>
   <p>We do not sell your personal information. We share limited information with the following categories of service providers, solely to operate the App:</p>
   <ul>
+    <li><strong>Replicate</strong> — receives photos of your clothing/outfits (and any notes you add about them) to analyze them and to generate outfit preview images. See "3. AI Processing" above for what is sent and when we ask your permission before sending it.</li>
     <li><strong>Google Firebase</strong> — authentication, database, and file storage.</li>
     <li><strong>RevenueCat</strong> — subscription status and entitlement management.</li>
     <li><strong>Apple</strong> — processing of App Store purchases and, if you use it, Sign in with Apple.</li>
